@@ -19986,3 +19986,7 @@
 {"time":"2025-10-06T21:04:42.845Z","cid":"api","channel":"LegacyEdgeUpgradeService","level":"info","message":"Checking for legacy edge workers to upgrade"}
 {"time":"2025-10-06T21:05:35.464Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":1.72,"eluPerc":0.55,"mem":{"heap":101,"heapTotal":105,"ext":3,"rss":259,"buffers":0}}
 {"time":"2025-10-06T21:05:36.036Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:06:35.464Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.26,"eluPerc":0.25,"mem":{"heap":102,"heapTotal":107,"ext":3,"rss":261,"buffers":0}}
+{"time":"2025-10-06T21:06:36.043Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:07:35.464Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.27,"eluPerc":0.53,"mem":{"heap":102,"heapTotal":106,"ext":3,"rss":264,"buffers":0}}
+{"time":"2025-10-06T21:07:36.045Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
