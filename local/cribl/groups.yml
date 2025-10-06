@@ -1,0 +1,9 @@
+default:
+  description: Default Worker Group
+  tags: default
+  configVersion: 9b0f435
+  lookupDeployments: []
+default_fleet:
+  description: Default Fleet
+  tags: default
+  isFleet: true

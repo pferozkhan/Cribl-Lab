@@ -70,3 +70,5 @@
 {"time":"2025-09-16T23:39:46.438Z","action":"create","type":"expression","user":"admin","id":"","requestId":"7b4ae2a5-2ced-4b85-8e2d-fb5db721c8dd"}
 {"time":"2025-09-16T23:39:50.199Z","action":"create","type":"expression","user":"admin","id":"","requestId":"cd005eff-69e3-453e-9cd1-1e72b18bb32e"}
 {"time":"2025-10-06T19:19:11.909Z","action":"update","type":"system-instance","user":"admin","id":"distributed","requestId":"6582b18a-5359-496c-9452-097e52fa65d4"}
+{"time":"2025-10-06T20:35:17.101Z","action":"commit","type":"git","user":"admin","id":"9b0f435","files":{"created":["groups/default/local/cribl/auth/cribl.secret","groups/default/local/cribl/auth/users.json","groups/default/package.json"]},"subject":"admin admin: Inital commit","requestId":"4df82860-ef13-4d4a-92cb-e78a39e3aef2"}
+{"time":"2025-10-06T20:35:17.206Z","action":"deploy","type":"groups","user":"admin","id":"default","version":"9b0f435","lookups":[],"requestId":"fde8c35a-3c09-4ab0-a5d7-1519b264fbef"}

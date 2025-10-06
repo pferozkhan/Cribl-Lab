@@ -1,47 +1,3 @@
-# --- Cribl Git Ignore Template ---
-
-# 🧱 Runtime / Generated Content
-state/
-log/
-logs/
-tmp/
-run/
-scratch/
-spool/
-
-# 🧩 Cribl binaries & packages
-bin/
-thirdparty/
-*.tar.gz
-*.tgz
-*.zip
-*.tar
-
-# 🔧 System or deployment-specific artifacts
-*.pid
-*.lock
-*.sock
-
-# 🧾 Backups & local environment files
-*.bak
-*.swp
-*.tmp
-.DS_Store
-Thumbs.db
-
-# 🧰 Git or editor metadata
-.gitignore
-.vscode/
-.idea/
-.env
-
-
-
-
-
-
-
-
 # Do NOT REMOVE CRIBL and CUSTOM header lines!
 # DO NOT REMOVE rules under the CRIBL section as they may be reintroduced on update.
 # You can ONLY comment out rules in the CRIBL section.
@@ -55,7 +11,7 @@ Thumbs.db
 #/pid/
 #data/uploads
 #/diag/
-#*.tmp
+*.tmp
 #/state
 #/groups/*/state/
 #**/local/cribl/internal-groups.yml
@@ -73,20 +29,39 @@ Thumbs.db
 #ha-version.txt
 #*:*
 #*~
-#*.swp
+*.swp
 #*.db
 #*.db-wal
 #*.db-shm
 #.nfs*
-### CUSTOM SECTION -- DO NOT REMOVE ###bin/
+### CUSTOM SECTION -- DO NOT REMOVE ###
+#--- Cribl Git Ignore Template ---
 
-#state/
-#/bin/
-#default/ui
-#default/data/ui
-#/lib/
-#/diag/
-#*.tmp
-
-
+#🧱 Runtime / Generated Content
 state/
+log/
+logs/
+tmp/
+run/
+scratch/
+spool/
+#🧩 Cribl binaries & packages
+bin/
+thirdparty/
+*.tar.gz
+*.tgz
+*.zip
+*.tar
+#🔧 System or deployment-specific artifacts
+*.pid
+*.lock
+*.sock
+#🧾 Backups & local environment files
+*.bak
+.DS_Store
+Thumbs.db
+#🧰 Git or editor metadata
+.gitignore
+.vscode/
+.idea/
+.env

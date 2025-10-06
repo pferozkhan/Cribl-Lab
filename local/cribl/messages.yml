@@ -1,1 +1,6 @@
-messages: {}
+messages:
+  NEW_VERSION:
+    severity: info
+    title: New version available
+    text: "New version available: [4.14.0-837595d5](https://cribl.io/download)"
+    time: 1759782887754
