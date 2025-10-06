@@ -49,3 +49,4 @@ Copy code
 !local/pipelines/**
 !local/lookups/**
 bin/
+log/
