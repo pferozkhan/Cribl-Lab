@@ -36,3 +36,12 @@ ha-version.txt
 .nfs*
 ### CUSTOM SECTION -- DO NOT REMOVE ###bin/
 
+state/
+/bin/
+default/ui
+default/data/ui
+/lib/
+/diag/
+*.tmp
+
+
