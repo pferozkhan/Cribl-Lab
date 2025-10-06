@@ -34,4 +34,5 @@ ha-version.txt
 *.db-wal
 *.db-shm
 .nfs*
-### CUSTOM SECTION -- DO NOT REMOVE ###
+### CUSTOM SECTION -- DO NOT REMOVE ###bin/
+
