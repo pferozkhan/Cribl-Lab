@@ -1,67 +1,50 @@
-# Do NOT REMOVE CRIBL and CUSTOM header lines!
-# DO NOT REMOVE rules under the CRIBL section as they may be reintroduced on update.
-# You can ONLY comment out rules in the CRIBL section.
-# You can add new rules in the CUSTOM section.
-### CRIBL SECTION -- DO NOT REMOVE ###
-#default/ui
-#default/data/ui
-#/bin/
-#/lib/
-#/log/
-#/pid/
-#data/uploads
-#/diag/
-*.tmp
-#/state
-#/groups/*/state/
-#**/local/cribl/internal-groups.yml
-#**/local/cribl/messages.yml
-#**/local/edge/messages.yml
-#**/default/cribl/lakes.yml
-#**/local/cribl/lakes.yml
-#**/local/cribl/lake-cache-servers.yml
-#**/local/cribl/lake-direct-access.yml
-#**/default/cribl/lake-config.yml
-#**/local/cribl/lake-config.yml
-#/thirdparty/
-#*.cpuprofile
-#**/auth/ssh/git.key
-#ha-version.txt
-#*:*
-#*~
-*.swp
-#*.db
-#*.db-wal
-#*.db-shm
-#.nfs*
-### CUSTOM SECTION -- DO NOT REMOVE ###
-#--- Cribl Git Ignore Template ---
+# Ignore everything by default
+/*
 
-#🧱 Runtime / Generated Content
-state/
-log/
-logs/
-tmp/
-run/
-scratch/
-spool/
-#🧩 Cribl binaries & packages
-bin/
-thirdparty/
+# Always keep these control files at the root
+!.gitignore
+!README.md
+
+# === Allowlisted content (pick what you want) ===
+# Include all config under local/ (then selectively re-ignore runtime subdirs)
+!local/**
+# Include selected parts of default/ (or all)
+!default/**
+# Include selected parts of groups/ (or all)
+!groups/**
+# If you want just certain default subdirs, comment the line above and un-comment lines like:
+# !default/pipelines/**
+# !default/lookups/**
+# !default/packs/**
+
+# === Re-ignores inside allowlisted dirs (runtime / large / ephemeral) ===
+local/log/
+local/logs/
+local/tmp/
+local/state/
+local/run/
+local/spool/
+local/scratch/
+local/thirdparty/
+local/bin/
+default/bin/
+default/thirdparty/
+
+# Archives & common junk
+*.tar
 *.tar.gz
 *.tgz
 *.zip
-*.tar
-#🔧 System or deployment-specific artifacts
-*.pid
-*.lock
-*.sock
-#🧾 Backups & local environment files
 *.bak
+*.swp
+*.tmp
 .DS_Store
 Thumbs.db
-#🧰 Git or editor metadata
-.gitignore
-.vscode/
-.idea/
-.env
+EOF
+Tip: If you only want specific subfolders (e.g., local/pipelines/ and local/lookups/), replace !local/** with:
+
+bash
+Copy code
+!local/
+!local/pipelines/**
+!local/lookups/**
