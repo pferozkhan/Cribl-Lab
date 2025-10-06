@@ -19990,3 +19990,22 @@
 {"time":"2025-10-06T21:06:36.043Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
 {"time":"2025-10-06T21:07:35.464Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.27,"eluPerc":0.53,"mem":{"heap":102,"heapTotal":106,"ext":3,"rss":264,"buffers":0}}
 {"time":"2025-10-06T21:07:36.045Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:08:35.464Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.24,"eluPerc":0.24,"mem":{"heap":103,"heapTotal":107,"ext":3,"rss":265,"buffers":0}}
+{"time":"2025-10-06T21:08:36.056Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:09:35.465Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.27,"eluPerc":0.51,"mem":{"heap":104,"heapTotal":109,"ext":3,"rss":266,"buffers":0}}
+{"time":"2025-10-06T21:09:36.058Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:09:42.844Z","cid":"api","channel":"LegacyEdgeUpgradeService","level":"info","message":"Checking for legacy edge workers to upgrade"}
+{"time":"2025-10-06T21:10:35.465Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.42,"eluPerc":0.24,"mem":{"heap":107,"heapTotal":111,"ext":3,"rss":275,"buffers":0}}
+{"time":"2025-10-06T21:10:36.062Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:11:35.464Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.2,"eluPerc":0.49,"mem":{"heap":108,"heapTotal":112,"ext":3,"rss":275,"buffers":0}}
+{"time":"2025-10-06T21:11:36.074Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:12:35.464Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.19,"eluPerc":0.24,"mem":{"heap":108,"heapTotal":113,"ext":3,"rss":277,"buffers":0}}
+{"time":"2025-10-06T21:12:36.081Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:13:35.465Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.19,"eluPerc":0.47,"mem":{"heap":109,"heapTotal":113,"ext":3,"rss":279,"buffers":0}}
+{"time":"2025-10-06T21:13:36.088Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:14:34.404Z","cid":"api","channel":"conf:messages","level":"info","message":"Cleaned up search notification msgs","context":"cribl","deleted":0}
+{"time":"2025-10-06T21:14:35.466Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.65,"eluPerc":0.24,"mem":{"heap":101,"heapTotal":114,"ext":3,"rss":278,"buffers":0}}
+{"time":"2025-10-06T21:14:36.095Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
+{"time":"2025-10-06T21:14:42.844Z","cid":"api","channel":"LegacyEdgeUpgradeService","level":"info","message":"Checking for legacy edge workers to upgrade"}
+{"time":"2025-10-06T21:15:35.467Z","cid":"api","channel":"ProcessMetrics","level":"info","message":"stats","cpuPerc":0.36,"eluPerc":0.46,"mem":{"heap":104,"heapTotal":114,"ext":3,"rss":278,"buffers":0}}
+{"time":"2025-10-06T21:15:36.100Z","cid":"api","channel":"MetricsStore","level":"info","message":"active metrics","numMetrics":24}
