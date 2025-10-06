@@ -1,0 +1,49 @@
+default:
+  buckets:
+    - name: '`lake-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      type: data
+      region: '`${C.env.AWS_DEFAULT_REGION}`'
+      retentionPeriodInDays: 3650
+      credentials:
+        method: auto
+        roleToAssume: '`arn:aws:iam::${C.env.ACCOUNTID}:role/saas/cribl-lake-rw-${C.env.DEPLOYMENT_NAME}`'
+        roleToAssumeHybrid: '`arn:aws:iam::${C.env.ACCOUNTID}:role/saas/cribl-lake-rw-${C.env.DEPLOYMENT_NAME}-hybrid`'
+    - name: '`internal-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      type: internal
+      region: '`${C.env.AWS_DEFAULT_REGION}`'
+      retentionPeriodInDays: 365
+      credentials:
+        method: auto
+        roleToAssume: '`arn:aws:iam::${C.env.ACCOUNTID}:role/saas/cribl-lake-rw-${C.env.DEPLOYMENT_NAME}`'
+        roleToAssumeHybrid: '`arn:aws:iam::${C.env.ACCOUNTID}:role/saas/cribl-lake-rw-${C.env.DEPLOYMENT_NAME}-hybrid`'
+  datasets:
+    - id: 'default_events'
+      bucketName: '`lake-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      description: 'Think events from Kubernetes or a 3rd party API (i.e. rest collector or O365 Management Activity API)'
+      retentionPeriodInDays: 30
+      format: 'json'
+    - id: 'default_logs'
+      bucketName: '`lake-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      description: 'Default dataset for capturing logs from multiple sources'
+      retentionPeriodInDays: 30
+      format: 'json'
+    - id: 'default_metrics'
+      bucketName: '`lake-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      description: 'Default dataset for capturing metrics from multiple sources'
+      retentionPeriodInDays: 15
+      format: 'json'
+    - id: 'default_spans'
+      bucketName: '`lake-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      description: 'Default dataset for capturing distributed trace spans from multiple sources'
+      retentionPeriodInDays: 10
+      format: 'json'
+    - id: 'cribl_logs'
+      bucketName: '`internal-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      description: 'Internal logs from Cribl deployments'
+      retentionPeriodInDays: 30
+      format: 'json'
+    - id: 'cribl_metrics'
+      bucketName: '`internal-${C.env.DEPLOYMENT_NAME}-${C.env.TENANT_ID}`'
+      description: 'Internal metrics from Cribl deployments'
+      retentionPeriodInDays: 30
+      format: 'json'

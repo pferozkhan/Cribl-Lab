@@ -1,0 +1,96 @@
+{
+  "recentActions": {
+    "pipeline": [
+      {
+        "action": "update",
+        "entityId": "PaloAlto_Parser",
+        "timestamp": 1756572258866,
+        "context": "stream",
+        "type": "pipeline",
+        "key": "-PaloAlto_Parser",
+        "author": "admin admin"
+      },
+      {
+        "action": "update",
+        "entityId": "prometheus_parse_rollup",
+        "timestamp": 1756570769683,
+        "context": "stream",
+        "type": "pipeline",
+        "key": "-prometheus_parse_rollup",
+        "author": "admin admin"
+      },
+      {
+        "action": "delete",
+        "entityId": "Prometheus_parse_rollup",
+        "timestamp": 1756570360958,
+        "context": "stream",
+        "type": "pipeline",
+        "key": "-Prometheus_parse_rollup",
+        "author": "admin admin"
+      },
+      {
+        "action": "update",
+        "entityId": "Cisco_Nexus_Test",
+        "timestamp": 1756567986325,
+        "context": "stream",
+        "type": "pipeline",
+        "key": "-Cisco_Nexus_Test",
+        "author": "admin admin"
+      }
+    ],
+    "input": [
+      {
+        "action": "create",
+        "subType": "syslog",
+        "entityId": "UDPINPUT",
+        "timestamp": 1758065366361,
+        "context": "stream",
+        "type": "input",
+        "key": "syslog-UDPINPUT",
+        "author": "admin admin"
+      },
+      {
+        "action": "create",
+        "subType": "syslog",
+        "entityId": "TCPinput",
+        "timestamp": 1758065347708,
+        "context": "stream",
+        "type": "input",
+        "key": "syslog-TCPinput",
+        "author": "admin admin"
+      },
+      {
+        "action": "update",
+        "subType": "syslog",
+        "entityId": "in_syslog",
+        "timestamp": 1758065317263,
+        "context": "stream",
+        "type": "input",
+        "key": "syslog-in_syslog",
+        "author": "admin admin"
+      },
+      {
+        "action": "update",
+        "subType": "splunk",
+        "entityId": "in_splunk_tcp",
+        "timestamp": 1758065045739,
+        "context": "stream",
+        "type": "input",
+        "key": "splunk-in_splunk_tcp",
+        "author": "admin admin"
+      }
+    ],
+    "route": [
+      {
+        "action": "create",
+        "entityId": "VyKi5v",
+        "entityName": "Splunk Route",
+        "timestamp": 1758065485817,
+        "context": "stream",
+        "type": "route",
+        "key": "-VyKi5v",
+        "author": "admin admin"
+      }
+    ]
+  }
+}

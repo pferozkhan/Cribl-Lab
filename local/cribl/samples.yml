@@ -1,0 +1,59 @@
+RVtzB3:
+  sampleName: sample_20250830-101844.log
+  created: 1756567150267
+  size: 297
+  numEvents: 1
+yOMbdt:
+  sampleName: CiscoNexus-Sample.log
+  created: 1756567480342
+  size: 2574
+  numEvents: 10
+  ttl: 10000
+8PrsVO:
+  sampleName: HTTP-Sample.log
+  created: 1756568143890
+  size: 1483
+  numEvents: 10
+  ttl: 10000
+j17bPS:
+  sampleName: Windows-Sample.log
+  created: 1756568195435
+  size: 10504
+  numEvents: 107
+  ttl: 10000
+vtOmu0:
+  sampleName: PaloAlto-Sample_.log
+  created: 1756568275918
+  size: 2792
+  numEvents: 10
+  ttl: 10000
+NZwF14:
+  sampleName: Linux-Sample.log
+  created: 1756568376566
+  size: 1703
+  numEvents: 10
+  ttl: 10000
+1TKBZD:
+  sampleName: Juniper-Sample.log
+  created: 1756568473837
+  size: 2586
+  numEvents: 10
+  ttl: 10000
+6swfQo:
+  sampleName: CriblMetrics-sample.log
+  created: 1756568577974
+  size: 3115
+  numEvents: 20
+  ttl: 10000
+IN8pSK:
+  sampleName: CiscoeStreamer-Sample.log
+  created: 1756568675760
+  size: 1872
+  numEvents: 10
+  ttl: 10000
+XMfPAE:
+  sampleName: " prometheus_metrics-Sample.log"
+  created: 1756568866366
+  size: 2966
+  numEvents: 20
+  ttl: 10000

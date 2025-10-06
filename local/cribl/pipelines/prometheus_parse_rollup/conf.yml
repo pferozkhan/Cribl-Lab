@@ -1,0 +1,15 @@
+output: default
+streamtags: []
+groups: {}
+asyncFuncTimeout: 1000
+functions:
+  - id: regex_extract
+    filter: "true"
+    disabled: null
+    conf:
+      source: _raw
+      iterations: 100
+      overwrite: false
+      regex: /^(?<metric>[a-zA-Z_:][a-zA-Z0-9_:]*)\\{(?<labels>[^}]*)\\}\\s+(?<value>-?\\d+(?:\\.\\d+)?(?:[eE][+-]?\\d+)?)$/
+    description: Parse Prometheus exposition lines into Cribl metrics
+description: ""
