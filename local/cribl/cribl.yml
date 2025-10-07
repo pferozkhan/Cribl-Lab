@@ -4,7 +4,7 @@ auth:
 git:
   authType: ssh
   gitOps: none
-  defaultCommitMessage: "Cribl Commit - "
+  defaultCommitMessage: "Cribl Commit :  "
   autoAction: none
   strictHostKeyChecking: true
   timeout: 300000
